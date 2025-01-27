@@ -1,0 +1,178 @@
+<!-- Inspiracion https://www.codewonders.dev -->
+
+<!DOCTYPE html>
+<html lang="sp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Antonio Merida</title>
+</head>
+
+<body>
+
+    <header>
+        <a class="logo" href="https://www.antoniomerida.es"><img id="logoAntonio" src="assets/logo/logo.png" alt=""></a>
+        <ul class="linksHeader">
+            <li><a href="#aboutMe">Sobre Mi</a></li>
+            <li><a href="#proyects">Proyectos</a></li>
+            <li><a href="#contactMe">Contacto</a></li>
+            <li id="linkCv">cv</li>
+            <input id="toggleDarkMode" type="checkbox" class="darkModeToggle">
+        </ul>
+        <a class="burgerMenu"><img src="" alt="burgerMenu"></a>
+    </header>
+
+    <!--  -->
+
+    <section id="firstImpresions" class="firstImpresions animatedFadeIn active"> <!-- CAMBIAR, AGREGAR ACTIVE-->
+        <div class="ContentFirstImpresions content">
+
+            <div class="tittleFirstImpresions">
+                <div class="glitchName h1" style="--stacks: 3;">
+                    <span style="--index: 0<;">Antonio Mérida</span>
+                    <span style="--index: 1;">Antonio Mérida</span>
+                    <span style="--index: 2;">Antonio Mérida</span>
+                </div>
+                <div class="glitchName h2" style="--stacks: 3;">
+                    <span style="--index: 0<;">Desarrollador Web</span>
+                    <span style="--index: 1;">Desarrollador Web</span>
+                    <span style="--index: 2;">Desarrollador Web</span>
+                </div>
+            </div>
+
+
+            <div class="mainLinksPresentation ">
+                <a class="githubLinkPresentation" href="https://github.com/Atheb3003">
+                    <img id="githubLogo" src="assets/socialMedia/github_blanco_24px.png" alt="Icono Github">
+                    <p>Github</p>
+                </a>
+                <a class="linkedinLinkPresentation" href="https://www.linkedin.com/in/antonio-m%C3%A9rida-del-pino-25a4552b2/">
+                    <img id="linkedinLogo" src="assets/socialMedia/linkedin_blanco_24px.png" alt="Icono Linkedin">
+                    <p>Linkedin</p>
+                </a>
+                <a class="cvLinkPresentation" id="linkCv">
+                    <img id="downloadLogo" src="assets/socialMedia/descargar_blanco_24px.png" alt="Icono Descarga">
+                    <p>Curriculum</p>
+                </a>
+
+            </div>
+
+            <div id="linkMoreAboutMe" class="linkAndArrowFirstImpresion" href="">
+                <img id="rightArrow" class="animatedArrowLeft" src="assets/firstImpresions/flechaBlancaDerecha_64px.png"
+                    alt="flecha">
+                <p>Conoce Mas sobre Mi</p>
+                <img id="leftArrow" class="animatedArrowRigth"
+                    src="assets/firstImpresions/flechaBlancaIzquierda_64px.png" alt="flecha">
+            </div>
+        </div>
+
+    </section>
+
+
+    <!--  -->
+    <section id="aboutMe" class="aboutMe animatedLeftAppear"> <!--ELIMINAR, QUITAR ACTIVE-->
+        <div class="contentAboutMe content">
+            <h2>¿Quien soy?</h2>
+
+            <div class="horizontalAboutMe">
+                <div class="imgAboutMe">
+                    <img src="assets/aboutMe/gifs/coding.gif" alt="">
+                </div>
+                <div class="textAboutMe">
+                    <p>Desarrolador Web en busca de empleo, con ganas de aportar y desarrollarme. </p>
+                </div>
+            </div>
+
+
+            <div class="sliderAboutMe">
+                <div class="hobbies">
+                    <h5>Algunos de mis hobbies relevantes</h5>
+                    <div class="gridHobbies">
+                        <div class="hobbie">
+                            <img src="assets/aboutMe/gifs/coding.gif" alt="">
+                            <p>Hardware</p>
+                        </div>
+                        <div class="hobbie">
+                            <img src="assets/aboutMe/gifs/streaming.gif" alt="">
+                            <p>Videojuegos</p>
+                        </div>
+                        <div class="hobbie">
+                            <img src="assets/aboutMe/gifs/power-button.gif" alt="">
+                            <p>Arduino</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="animatedIconScroll">
+                <img class="mouseIcon" src="assets/aboutMe/mouse_blanco_24px.png" alt="Icono Mouse">
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+    <section class="skills">
+        <div class="contentSkills content">
+            <h2>Habilidades</h2>
+            <div class="hardSkills">
+                <div class="skills">
+
+                </div>
+                <div class="skillsInProcess">
+
+                </div>
+            </div>
+            
+            <div class="softSkills">
+
+            </div>
+        </div>
+    </section>
+
+    <!--  -->
+
+    <section id="contactMe" class="contactMe animatedLeftAppear">
+        <div class="contentContactMe content">
+            <h2>Contactame</h2>
+            <form action="https://formsubmit.co/antoniomeridadelpino@gmail.com" method="POST">
+                <input type="text" name="name" required placeholder="¿QUIEN ES?"> 
+                <input type="text" name="email" placeholder="Email">
+                <textarea name="contenido" placeholder="Escriba su mensanje..." resize="none"></textarea>
+                <input type="hidden" name="_next" value="http://antoniomerida.es">
+                <input type="hidden" name="_captcha" value="false">
+                <button type="submit"><img src="assets/contactMe/send_darkmode_24px.png" alt=""></button>
+                <input type="hidden" name="_next" value="antoniomerida.es">
+            </form>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <footer>
+
+    </footer>
+
+
+
+    <div class="blackScreen" id="blackScreen"></div>
+
+    <div class="ball ball1"></div>
+
+    <div class="ball ball2"></div>
+
+    <!-- <button class="previousSliderButton" id="previusSliderButton"><img src="assets/proyects/flecha_blanca_izquierda_64px.png" alt=""></button>
+    <button class="nextSliderButton" id="nextSliderButton"><img src="assets/proyects/flecha_blanca_derecha_64px.png" alt=""></button> -->
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
